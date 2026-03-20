@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+    <body>
+       <div id="titulo_principal"> 
+                <h1>O senhor dos anéis - um filme massa</h1>
+                <h2 class="titulo_secundario"> Uma das trilogias mais famosas do cinema - saga cinematografica legal</h2>
+            </div>
+            <h2 class="titulo_secundario"> Sinopse</h2>
+
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="sinopse.html">Sinopse</a>
+                <a href="imagemfilme.html">Imagem do Filme</a>
+                <a href="personagens.html">Personagens principais</a>
+                <a href="InformaçõesFilme.html">Informações</a>
+                <a href="OrdemFilmes.html">Ordem dos filmes</a>
+                <a href="Curiosidades.html">Curiosidades</a>
+                <a href="ImpactoCultural.html">Impacto Cultural</a>
+                <a href="contato.html">Contato</a>
+                <a href="#conclusao">Conslusão</a>
+            </nav>
+        </div>
+
+    <h2 class="titulo_secundario">Entre em contato:</h2>
+
+    <form action="processa.php" method="get" autocomplete="off">
+        <label for="nomepessoa">Nome:</label>
+        <input type="text" name="nomepessoa" 
+        id="nomepessoa" minlenght="3" maxlength="15"
+        required placeholder="Informe seu nome"><br><br>
+
+    <fieldset>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required placeholder="Informe seu email"><br><br>
+        
+        <input type="number" id="Ano" name="ano" max="2026" min="1900" placeholder="Informe seu ano de nascimento"><br><br>
+
+        <label>Telefone</label>
+        <input type="tel" name="telefone" id="telefone" placeholder="Informe seu telefone"><br><br>
+
+        <label>Informe seu GITHUB:</label>
+        <input type="url" name="github" id="github" placeholder="Informe seu GITHUB"><br><br>
+        
+        <label for="senha">Infomre sua senha:</label>
+        <input type="password" id="senha" name="senha"><br><br>
+
+        <label for="arquivo">Anexe um arquivo:</label>
+        <input type="file" id="arquivo" name="arquivo"><br><br>
+
+        <label for="cor">Escolha uma cor:</label>
+        <input type="color" id="cor" name="cor"><br><br>
+
+        <label for="data">Informe a data</label>
+        <input type="date" name="data" id="data"><br><br>
+
+        <label for="mounth">Informe o mês:</label>
+        <input type="mounth" name="mounth" id="mounth"><br><br>
+
+        <label for="week">Informe a semana:</label>
+        <input type="week" name="week" id="week"><br><br>
+
+        <label for="time">Informe a hora:</label>
+        <input type="time" name="time" id="time"><br><br>
+
+        <label for="datahora">Data e hora atual</label>
+        <input type="datetime-local" name="datahora" id="datahora"><br><br>
+    </fieldset>
+
+        <label for="pesquisa">Pesquisa</label>
+        <input type="search" id="pesquisa" name="pesquisa"><br><br>
+
+        <label form="descrição">Informe aqui o que você gosta nos filmes:</label><br>
+        <textarea cols="30" rows="10" name="descrição" id="descrição"></textarea><br><br>
+
+    <fieldset>
+        <legend>Qual seu filme favorito?</legend>
+        <lable for="id">Filme 1</lable>
+        <input type="radio" name="filme" value="Filme 1" checked type="Filme 1" id="Filme 1" for="Filme 1">
+
+        <lable for="id">Filme 2</lable>
+        <input type="radio" name="filme" value="Filme 2" type="Filme 2" id="Filme 2" for="Filme 2">
+
+        <lable for="id">Filme 3</lable>
+        <input type="radio" name="filme" value="Filme 3" type="Filme 3" id="Filme 3" for="Filme 3">
+    </fieldset>
+
+    <select>
+        <option value="filme 1">Filme 1</option>
+        <option value="filme 2">Filme 2</option>
+        <option selected value="filme 3">Filme 3</option>
+    </select>
+
+    <button type="reset">Limpar</button>
+    <button type="submit">Enviar</button>
+        
+    </form>
+</body>
+</html>
