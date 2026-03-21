@@ -28,12 +28,13 @@
     <h2 class="titulo_secundario">Entre em contato:</h2>
 
     <form action="processa.php" method="get" autocomplete="off">
+
+        <fieldset>
         <label for="nomepessoa">Nome:</label>
         <input type="text" name="nomepessoa" 
         id="nomepessoa" minlenght="3" maxlength="15"
         required placeholder="Informe seu nome"><br><br>
 
-    <fieldset>
         <label for="email">Email:</label>
         <input type="email" name="email" id="email" required placeholder="Informe seu email"><br><br>
         
@@ -69,11 +70,11 @@
 
         <label for="datahora">Data e hora atual:</label>
         <input type="datetime-local" name="datahora" id="datahora"><br><br>
-    </fieldset>
 
         <label for="pesquisa">Pesquisa:</label>
         <input type="search" id="pesquisa" name="pesquisa"><br><br>
-
+    </fieldset>
+    
         <label form="descrição">Informe aqui o que você gosta nos filmes:</label><br>
         <textarea cols="30" rows="10" name="descrição" id="descrição"></textarea><br><br>
 
