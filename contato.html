@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
     <body>
+<<<<<<< HEAD
        <div id="titulo_principal"> 
                 <h1>O senhor dos anéis - um filme massa</h1>
                 <h2 class="titulo_secundario"> Uma das trilogias mais famosas do cinema - saga cinematografica legal pneumoultramicroscopicossili<wbr>covulcanoconiótico</h2>
             </div>
             <h2 class="titulo_secundario"> Sinopse</h2>
 
+=======
+     <div id="titulo_principal"> 
+        <h1>O senhor dos anéis - um filme massa</h1>
+        <h2 class="titulo_secundario"> Uma das trilogias mais famosas do cinema - saga cinematografica legal</h2>
+    </div>
+>>>>>>> 4c552b65b7217464e9db851a53cb0214c206dd48
             <nav>
                 <a href="index.html">Home</a>
                 <a href="sinopse.html">Sinopse</a>
@@ -22,31 +30,33 @@
                 <a href="Curiosidades.html">Curiosidades</a>
                 <a href="ImpactoCultural.html">Impacto Cultural</a>
                 <a href="contato.html">Contato</a>
-                <a href="#conclusao">Conslusão</a>
+                <a href="#conclusao">Conclusão</a>
             </nav>
         </div>
 
     <h2 class="titulo_secundario">Entre em contato:</h2>
 
     <form action="processa.php" method="get" autocomplete="off">
+
+        <fieldset>
         <label for="nomepessoa">Nome:</label>
         <input type="text" name="nomepessoa" 
         id="nomepessoa" minlenght="3" maxlength="15"
         required placeholder="Informe seu nome"><br><br>
 
-    <fieldset>
         <label for="email">Email:</label>
         <input type="email" name="email" id="email" required placeholder="Informe seu email"><br><br>
         
-        <input type="number" id="Ano" name="ano" max="2026" min="1900" placeholder="Informe seu ano de nascimento"><br><br>
+        <label>Ano de nascimento:</label>
+        <input type="number" id="Ano" name="ano" max="2026" min="1900" placeholder=""><br><br>
 
-        <label>Telefone</label>
+        <label>Telefone:</label>
         <input type="tel" name="telefone" id="telefone" placeholder="Informe seu telefone"><br><br>
 
-        <label>Informe seu GITHUB:</label>
-        <input type="url" name="github" id="github" placeholder="Informe seu GITHUB"><br><br>
+        <label>Informe seu github:</label>
+        <input type="url" name="github" id="github" placeholder="Informe seu github"><br><br>
         
-        <label for="senha">Infomre sua senha:</label>
+        <label for="senha">Informe sua senha:</label>
         <input type="password" id="senha" name="senha"><br><br>
 
         <label for="arquivo">Anexe um arquivo:</label>
@@ -55,7 +65,7 @@
         <label for="cor">Escolha uma cor:</label>
         <input type="color" id="cor" name="cor"><br><br>
 
-        <label for="data">Informe a data</label>
+        <label for="data">Informe a data:</label>
         <input type="date" name="data" id="data"><br><br>
 
         <label for="mounth">Informe o mês:</label>
@@ -67,13 +77,13 @@
         <label for="time">Informe a hora:</label>
         <input type="time" name="time" id="time"><br><br>
 
-        <label for="datahora">Data e hora atual</label>
+        <label for="datahora">Data e hora atual:</label>
         <input type="datetime-local" name="datahora" id="datahora"><br><br>
-    </fieldset>
 
-        <label for="pesquisa">Pesquisa</label>
+        <label for="pesquisa">Pesquisa:</label>
         <input type="search" id="pesquisa" name="pesquisa"><br><br>
-
+    </fieldset>
+    
         <label form="descrição">Informe aqui o que você gosta nos filmes:</label><br>
         <textarea cols="30" rows="10" name="descrição" id="descrição"></textarea><br><br>
 
