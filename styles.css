@@ -11,3 +11,36 @@
 .rodape{
     text-align: center;
 }
+
+nav a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #000000;
+    color: rgb(255,255,255);
+    font-family: "ROBOTO", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: none;
+    word-spacing: 20px;
+    letter-spacing: none;
+    text-indent: 20px;
+    text-align: justify;
+    border: dashed 20px rgb(153,255,153);
+    border-bottom: dotted 10px rgb(153,103,153);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px 10px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.teste_display{
+    background-color: orange;
+    display: block;
+}
