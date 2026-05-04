@@ -22,15 +22,15 @@ body{
     font-family: "ROBOTO", sans-serif;
     font-size: 16px;
     font-style: normal;
-    line-height: 20px;
+    line-height: 2;
     font-weight: 400;
     text-transform: none;
-    word-spacing: 20px;
+    word-spacing: 3px;
     letter-spacing: none;
     text-indent: 20px;
     text-align: justify;
-    border: dashed 20px rgb(153,255,153);
-    border-bottom: dotted 10px rgb(153,103,153);
+    border: dashed 20px rgb(255, 115, 115);
+    border-bottom: dotted 10px rgb(138, 38, 38);
     border-radius: 20px;
     margin: 20px;
     padding: 20px 10px;
@@ -43,4 +43,59 @@ nav a{
 .teste_display{
     background-color: orange;
     display: block;
+}
+
+#display
+
+nav a{
+     text-decoration: none;
+}
+
+#teste_estilo_lista_ul{
+    list-style-type: none;
+}
+
+#teste_estilo_lista_ol{
+    /*list-style-type: ;*/
+    list-style-image: url('img/seta_direita_vermelha.png');
+}
+
+li{
+    border:solid 3px orange;
+    list-style-position: outside;
+}
+
+#impacto{
+    background-image: url('img/senhordosaneis_fundo.jpg');
+    background-repeat: no-repeat;
+    /*background-position: ;*/
+    background-size: cover;
+    background-attachment: fixed;
+    text-shadow: 3px 3px 2px red;
+    width: 2000px;
+    height: 1500px;
+}
+
+.noticia{
+    border: solid 3px white;
+    width: 200px;
+    /*position: ;*/
+    height: 100px;
+    overflow: auto;;
+    margin-bottom: 20px;
+}
+
+.um{
+    background-color: blue;
+    top: 0px;
+    left: 50px;
+    z-index: 3;
+    box-shadow: 3px 3px 10px 3px red;
+}
+
+.dois{
+    background-color: red;
+    top: 200px;
+    left: 250px;
+    box-shadow: 3px 3px 10px 3px blue;
 }
