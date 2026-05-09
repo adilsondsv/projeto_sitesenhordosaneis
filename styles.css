@@ -1,15 +1,25 @@
 #titulo_principal{
-    background-color: #d34646;
-    color: white
+    background-color: #318d39;
+    color: rgb(210, 255, 214);
+    border-radius: 15px;
 }
 
 .titulo_secundario{
-    background-color: #792222;
-    color: white
+    background-color: #0f4212;
+    color: rgb(210, 255, 214);
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+#layout{
+    display: flex;
 }
 
 .rodape{
     text-align: center;
+    background-color: #2d422b;
+    border-radius: 15px;
 }
 
 nav a{
@@ -17,20 +27,20 @@ nav a{
 }
 
 body{
-    background-color: #000000;
-    color: rgb(255,255,255);
-    font-family: "ROBOTO", sans-serif;
-    font-size: 16px;
+    background-color: #1e2c1d;
+    color: rgb(210, 255, 214);
+    font-family: 'lora', serif;
+    font-size: 20px;
     font-style: normal;
-    line-height: 2;
+    line-height: 1,5px;
     font-weight: 400;
     text-transform: none;
-    word-spacing: 3px;
+    word-spacing: 1px;
     letter-spacing: none;
     text-indent: 20px;
     text-align: justify;
-    border: dashed 20px rgb(255, 115, 115);
-    border-bottom: dotted 10px rgb(138, 38, 38);
+    border: solid 15px #318d39;
+    border-bottom: solid 15px #318d39;
     border-radius: 20px;
     margin: 20px;
     padding: 20px 10px;
@@ -38,10 +48,14 @@ body{
 
 nav a{
     text-decoration: none;
+    background-color: #318d39;
+    color: rgb(210, 255, 214);
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .teste_display{
-    background-color: orange;
+    background-color: #d34646;
     display: block;
 }
 
@@ -61,8 +75,9 @@ nav a{
 }
 
 li{
-    border:solid 3px orange;
+    border:solid 3px #318d39;
     list-style-position: outside;
+    margin-bottom: 5px;
 }
 
 #impacto{
@@ -77,7 +92,7 @@ li{
 }
 
 .noticia{
-    border: solid 3px white;
+    border: solid 3px rgb(210, 255, 214);
     width: 200px;
     /*position: ;*/
     height: 100px;
@@ -86,16 +101,44 @@ li{
 }
 
 .um{
-    background-color: blue;
+    background-color: #318d39;
     top: 0px;
     left: 50px;
     z-index: 3;
-    box-shadow: 3px 3px 10px 3px red;
+    box-shadow: 3px 3px 10px 3px #0f4212;
 }
 
 .dois{
-    background-color: red;
+    background-color: #0f4212;
     top: 200px;
     left: 250px;
-    box-shadow: 3px 3px 10px 3px blue;
+    box-shadow: 3px 3px 10px 3px #318d39;
+}
+
+.informacoes_filme{
+    background-color: #318d39;
+    border-radius: 15px;
+    padding: 5px;
+    width: fit-content;
+}
+
+.info_link{
+    color: rgb(210, 255, 214);
+    background-color: #318d39;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.titulo_tolkien{
+    background-color: #318d39;
+    border-radius: 15px;
+    padding: 5px;
+    width: fit-content;
+}
+
+.titulo_terra_media{
+    background-color: inherit;
+    border-radius: 15px;
+    padding: 5px;
+    display: center;
 }
