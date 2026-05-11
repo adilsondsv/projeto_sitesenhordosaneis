@@ -54,6 +54,38 @@ nav a{
     padding: 5px;
 }
 
+nav a:
+
+.transicao{
+    background-color: #318d39;
+}
+
+h1{
+    animation-name: multicolor;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes multicolor{
+    from{color: #318d39;}
+    to{color: rgb(210, 255, 214);}
+}
+
+.animacao_img{
+    display: block;
+    animation: foguete;
+    animation-duration: 5s;
+}
+
+@keyframes foguete{
+    0%{margin-left: 0%}
+    25%{margin-left: 80%; transform: rotate(0deg)}
+    50%{margin-left: 80%; transform: rotate(-130deg);}
+
+}
+
 .teste_display{
     background-color: #d34646;
     display: block;
